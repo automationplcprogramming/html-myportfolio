@@ -1,0 +1,52 @@
+*
+{
+    background-color: #EBF4F6;
+}
+
+.page_1
+{
+    height: 100vh;
+    margin: 0;
+    background-image: url('../Images_SVG/PlayCheck.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+
+/*#home_page
+{   
+
+}*/
+
+
+.page_2
+{
+    height: 100vh;
+}
+
+#about_page
+{   
+    background-image: url('');
+    background-size: cover;
+}
+
+#sans-serif
+{
+    font-family: sans-serif;
+}
+
+body
+{
+    margin: 0%;
+}
+
+
+
+
+
+
+
+
+
