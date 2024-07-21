@@ -1,0 +1,124 @@
+*
+{
+    background-color: #EBF4F6;
+}
+
+.page_1 {
+    width: 100%; /* Full width */
+    min-height: 100vh; /* Ensure the div covers the viewport height */
+    padding: 15px; /* Base padding */
+    font-size: 18px; /* Base font size */
+    background-image: url('../Images_SVG/PlayCheck.svg'); /* Path to your SVG */
+    background-size: cover; /* Ensure the SVG covers the entire container */
+    background-position: center; /* Center the SVG in the container */
+    background-repeat: no-repeat; /* Prevent the SVG from repeating */
+    background-color: #f0f0f0; /* Fallback background color */
+    display: flex; /* For centering content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+@media (max-width: 575px) {
+    .page_1 {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .page_1 {
+        padding: 15px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .page_1 {
+        padding: 20px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .page_1 {
+        padding: 25px;
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page_1 {
+        padding: 30px;
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+
+/*
+{   
+
+@media (min-width: 576px) {
+    .page_1 {
+        padding: 15px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    .page_1 {
+        padding: 20px;
+        font-size: 20px;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .page_1 {
+        padding: 25px;
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page_1 {
+        padding: 30px;
+        font-size: 24px;
+    }
+}
+}*/
+
+
+.page_2
+{
+    height: 100vh;
+}
+
+#about_page
+{   
+    background-image: url('');
+    background-size: cover;
+}
+
+#sans-serif
+{
+    font-family: sans-serif;
+}
+
+body
+{
+    margin: 0%;
+}
+
+
+
+
+
+
+
+
+
