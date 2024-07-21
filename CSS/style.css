@@ -1,0 +1,70 @@
+
+.first{
+    position: relative;
+}
+
+
+.second{
+    background-image: url('../Images_SVG/PlayCheck.svg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+@media (min-width: 1200px) {
+    .second {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+/* Desktops and laptops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .second {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    .second {
+        background-size: cover;
+        background-position: top;
+    }
+}
+
+/* Landscape tablets and large phones */
+@media (min-width: 576px) and (max-width: 767px) {
+    .second {
+        background-size: cover;
+        background-position: top;
+    }
+}
+
+/* Portrait tablets and small phones */
+@media (min-width: 481px) and (max-width: 575px) {
+    .second {
+        background-size: cover;
+        background-position: top;
+    }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+    .second {
+        background-size: contain;
+        background-position: top;
+    }
+}
+
+
+body{
+    background-color: #EBF4F6;
+}
