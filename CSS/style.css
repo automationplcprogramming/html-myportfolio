@@ -5,19 +5,79 @@
 
 .page_1
 {
+    display: flex;
     height: 100vh;
-    margin: 0;
+    width: 100%;
     background-image: url('../Images_SVG/PlayCheck.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
 
 }
+@media (min-width: 576px) {
+    .page_1 {
+        padding: 15px;
+        font-size: 18px;
+    }
+}
 
-/*#home_page
+@media (min-width: 768px) {
+    .page_1 {
+        padding: 20px;
+        font-size: 20px;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .page_1 {
+        padding: 25px;
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page_1 {
+        padding: 30px;
+        font-size: 24px;
+    }
+}
+
+
+
+/*
 {   
 
+@media (min-width: 576px) {
+    .page_1 {
+        padding: 15px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    .page_1 {
+        padding: 20px;
+        font-size: 20px;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .page_1 {
+        padding: 25px;
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page_1 {
+        padding: 30px;
+        font-size: 24px;
+    }
+}
 }*/
 
 
